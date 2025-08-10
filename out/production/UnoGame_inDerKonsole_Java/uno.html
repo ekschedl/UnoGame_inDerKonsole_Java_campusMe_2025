@@ -1,0 +1,188 @@
+
+    
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNO Spielregeln</title>
+    <meta name="description" content="UNO Spielregeln" />  
+  </head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f8f8f8;
+      }
+      header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1.5em;
+      }
+      h1 {
+        margin: 0;
+      }
+      section {
+        padding: 2em;
+      }
+      h2 {
+   
+        padding-bottom: 0.3em;
+      }
+      .regel-gruppe {
+        margin-bottom: 2em auto;
+        width: 70%;
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .regel {
+        background-color: white;
+        padding: 1em;
+        margin: 0.5em 0;
+        border-radius: 10px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+        font-weight: normal;
+      }
+      .rot {
+        border-left: 10px solid #d62828;
+      }
+      .gelb {
+        border-left: 10px solid #ffca3a;
+      }
+      .gruen {
+        border-left: 10px solid #8ac926;
+      }
+      .blau {
+        border-left: 10px solid #1982c4;
+      }
+      .schwarz {
+        border-left: 10px solid #333;
+      }
+      body {
+        background: linear-gradient(
+          to right,
+          #d62828,
+          #ffca3a,
+          #8ac926,
+          #1982c4
+        );
+      }
+      h1 {
+        font-size: 2.5em;
+        text-shadow: 2px 2px #000;
+        letter-spacing: 2px;
+      }
+      .regel:hover {
+        transform: scale(1.02);
+        transition: 0.2s ease;
+        background-color: #fafafa;
+      }
+      footer {
+        text-align: center;
+        padding: 1em;
+        background: #222;
+        color: #fff;
+        height: 5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="image.png"
+        alt="UNO Logo"
+        style="height: 80px; margin-bottom: 0.5em"
+      />
+      <h1>UNO – Spielregeln</h1>
+    </header>
+
+    <section>
+      <div class="regel-gruppe">
+        <h2>Ziel des Spiels</h2>
+        <div class="regel gelb">
+          Ziel ist es, als Erster 500 Punkte zu erreichen.
+        </div>
+        <div class="regel gelb">
+          Punkte gibt es für die Karten, die die Mitspieler am Ende der Runde
+          noch auf der Hand haben.
+        </div>
+      </div>
+
+      <div class="regel-gruppe">
+        <h2>Spielvorbereitung</h2>
+        <div class="regel gruen">Jeder Spieler erhält 7 Karten.</div>
+        <div class="regel gruen">
+          Ein Kartenstapel wird verdeckt in die Mitte gelegt, die oberste Karte
+          wird als Ablagestapel aufgedeckt.
+        </div>
+        <div class="regel gruen">Ein Startspieler wird ausgelost.</div>
+      </div>
+
+      <div class="regel-gruppe">
+        <h2>Spielverlauf</h2>
+        <div class="regel blau">
+          Es darf nur auf gleiche Farbe oder Zahl gelegt werden.
+        </div>
+        <div class="regel blau">
+          Kann man nicht legen, zieht man eine Karte. Passt sie, darf man sie
+          sofort spielen.
+        </div>
+        <div class="regel blau">
+          Wer nur noch eine Karte hat, muss „UNO!“ rufen – sonst droht eine
+          Strafe.
+        </div>
+        <div class="regel blau">
+          Wer als Erster keine Karten mehr hat, gewinnt die Runde und bekommt
+          Punkte.
+        </div>
+      </div>
+
+      <div class="regel-gruppe">
+        <h2>Aktionskarten</h2>
+        <div class="regel schwarz">
+          +2 Karte: Nächster Spieler zieht 2 Karten und setzt aus.
+        </div>
+        <div class="regel schwarz">Retour: Spielrichtung wird umgedreht.</div>
+        <div class="regel schwarz">
+          Aussetzen: Nächster Spieler wird übersprungen.
+        </div>
+        <div class="regel schwarz">
+          Farbenwahl: Farbe darf frei gewählt werden.
+        </div>
+        <div class="regel schwarz">
+          +4 Farbenwahl: Farbe darf gewählt werden, nächster Spieler zieht 4
+          Karten – darf nur gespielt werden, wenn keine passende Farbe auf der
+          Hand ist.
+        </div>
+      </div>
+
+      <div class="regel-gruppe">
+        <h2>Strafen</h2>
+        <div class="regel gelb">
+          UNO vergessen: 1 Strafkarte, wenn rechtzeitig entdeckt.
+        </div>
+
+        <div class="regel gelb">
+          +4 Karte zu Unrecht gespielt → Herausforderung: Wird der Spieler
+          überführt, zieht er selbst 4 Karten, sonst der Herausforderer 6!
+        </div>
+      </div>
+
+      <div class="regel-gruppe">
+        <h2>Punkte</h2>
+        <div class="regel gruen">Zahlenkarten: Zahlenwert</div>
+        <div class="regel gruen">+2, Retour, Aussetzen: je 20 Punkte</div>
+        <div class="regel gruen">Farbenwahl, +4 Farbenwahl: je 50 Punkte</div>
+      </div>
+    </section>
+    <footer>&copy; 2025 – UNO Regeln von Sara, Valerie, Ekaterina 🎲</footer>
+  </body>
+</html>
